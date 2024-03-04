@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import { AiOutlineMinus, AiOutlinePlus, AiFillStar, AiOutlineStar } from 'react-icons/ai';
 
-import { client, urlFor } from '/workspace/newone/stakies-hub/lib/client';
-import { Product } from '/workspace/newone/stakies-hub/src/components';
+import { client, urlFor } from '../../lib/client';
 import { useStateContext } from '../../../Context/StateContext';
+import { Product } from '@/components';
+
 
 const ProductDetails = ({ product, products }) => {
   const { image, name, details, price } = product;

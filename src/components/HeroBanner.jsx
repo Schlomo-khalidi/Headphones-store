@@ -1,7 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
+import { urlFor } from '../../lib/client';
 
-import { urlFor } from '/workspace/newone/stakies-hub/lib/client.js';
+
 
 const HeroBanner = ({ heroBanner }) => {
   return (

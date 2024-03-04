@@ -1,8 +1,7 @@
 import React from 'react';
 
-//import { client } from 'stakies-hub/lib/client';
-import { Product, FooterBanner, HeroBanner } from '/workspace/newone/stakies-hub/src/components';
 import { client } from '../../lib/client';
+import { Product, FooterBanner, HeroBanner } from '@/components';
 
 const Home = ({ products, bannerData }) => (
   <div>
