@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { AiOutlineMinus, AiOutlinePlus, AiFillStar, AiOutlineStar } from 'react-icons/ai';
 
-import { client, urlFor } from '../../lib/client';
 import { useStateContext } from '../../../Context/StateContext';
 import { Product } from '@/components';
+import { client, urlFor } from '../../../lib/client';
 
 
 const ProductDetails = ({ product, products }) => {
